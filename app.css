@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: lightblue;
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    font-family: Bungee;     
+}
+
+.form-center {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    border: 2px solid darkblue;
+    background-color: lightblue;
+    padding: 12px;
+    font-size: 16px;
+}
+
+button {
+    background-color: lightblue;
+    border: 2px solid darkblue;
+    padding: 12px 12px;
+    margin: 2px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 18px;    
+}
+
+button:hover {
+    background-color: orangered;
+}
+
+.new-gifs {
+    display: flex;
+    justify-content: center;    
+    margin: 5px;
+}
